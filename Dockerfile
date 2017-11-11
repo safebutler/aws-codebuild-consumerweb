@@ -4,7 +4,7 @@ FROM dannyzhong/aws-codebuild-docker-python3.6:latest
 #  Customize the build environment for our own stack
 ##########################################################################
 
-RUN apt-get install --yes less
+#RUN apt-get install --yes less
 RUN apt-get install --yes vim
 
 RUN apt-get install --yes jq
