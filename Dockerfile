@@ -4,7 +4,8 @@ FROM dannyzhong/aws-codebuild-docker-python3.6
 #  Customize the build environment for our own stack
 ##########################################################################
 
-RUN apt-get install --yes less vim
+RUN apt-get install --yes less
+RUN apt-get install --yes vim
 
 RUN apt-get install --yes jq
 # upgrade jq to 1.5. http://stackoverflow.com/questions/36462955/upgrading-jq-to-1-5-on-ubuntu
